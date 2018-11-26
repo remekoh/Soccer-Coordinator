@@ -119,7 +119,7 @@ let teamRaptorsName = "Raptors"
 func generateLettersToGuardiansUsing(team: [[String: Any]], teamName: String, teamPracticeInfo: String) {
   for player in team {
     if let nameOfGuardian = player["namesOfGuardians"], let nameOfPlayer = player["name"] {
-      let letterToGuardian = "Dear \(nameOfGuardian), \n\n We are excited for the start of the 2018/2019 Season of the Houston Premier League! Your child, \(nameOfPlayer), has been seleted as a member the \(teamName). Their first practice for this season will be on \(teamPracticeInfo). The attached PDF will have more information. \n\n Looking forward to a fun season. \n\n Thanks, \n Reme Ekoh \n League Manager"
+      let letterToGuardian = "Dear \(nameOfGuardian), \n\n We are excited for the start of the 2018/2019 Season of the Houston Premier League! Your child, \(nameOfPlayer), has been seleted as a member the \(teamName). Their first practice for this season will be on \(teamPracticeInfo). The attached PDF will have more information. \n\n Looking forward to a fun season. \n\n Thanks, \n Reme Ekoh \n HPL Soccer Coordinator"
       letters.append(letterToGuardian)
     }
   }
